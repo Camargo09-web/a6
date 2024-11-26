@@ -16,11 +16,11 @@
                 }
                 
                 input[type=text], input[type=tel], [type=email], select, textarea{
-                    width: 50%;
-                    border: 0px solid auto;
-                    padding: 16px 32px;
-                    text-decoration: none;
-                    margin: 4px 2px;
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    box-sizing: border-box;
                 }
                 
                 input[type="submit"]{
@@ -31,6 +31,7 @@
                     text-decoration: none;
                     margin: 4px 2px;
                     cursor: pointer;
+                    float:right;
                 }
                 input[type="submit"]:hover{
                     background-color: lightsteelblue;
@@ -84,7 +85,6 @@
                     
                     <label for= "comments">Comentarios:</label>
                     <textarea id= "" name= "comments"></textarea>
-                    <br>
                     <input type="submit" value="Enviar">
 
                 </div>
